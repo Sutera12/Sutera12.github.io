@@ -20,7 +20,7 @@
         <a class="blog-header-logo text-dark" href="#">サイト名</a>
       </div>
       <form class="col-4 form-inline my-2 my-lg-0">
-        <div class="card d-none d-xl-block">
+        <div class="d-none d-xl-block">
         <form action="Sutera12.github.io/2022saisyuu/saisyuu.html" method="get">
         <input class="form-control mr-sm-2" type="search" name="search" placeholder="検索" aria-label="検索">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
@@ -195,30 +195,47 @@
           <p>・<a href="#">エニエス・ロビー</a></p>
           <p></p>
           <h2 class="text-center">各編</h2>
-          <h5>イーストブルー編</h5>
-          <p>・<a href="#">フーシャ村編</a></p>
-          <p>・<a href="#">シェルズタウン編</a></p>
-          <p>・<a href="#">オレンジの町編</a></p>
-          <p>・<a href="#">シロップ村編</a></p>
-          <p>・<a href="#">バラティエ編</a></p>
-          <p>・<a href="#">アーロンパーク編</a></p>
-          <h2>グランドライン編</h2>
-          <p>・<a href="#">アラバスタ編</a></p>
-          <p>・<a href="#">空島編</a></p>
-          <p>・<a href="#">ロングリングロングランド編</a></p>
-          <p>・<a href="#">ウォーターセブン編</a></p>
-          <p>・<a href="#">エニエス・ロビー編</a></p>
-          <p>・<a href="#">スリラーバーク編</a></p>
-          <p>・<a href="#">シャボンディ諸島編</a></p>
-          <p>・<a href="#">インペルダウン編</a></p>
-          <p>・<a href="#">マリンフォード編</a></p>
-          <p>・<a href="#">魚人島編</a></p>
-          <p>・<a href="#">パンクハザード編</a></p>
-          <p>・<a href="#">ドレスローザ編</a></p>
-          <p>・<a href="#">ゾウ編</a></p>
-          <p>・<a href="#">ホールケーキアイランド編</a></p>
-          <p>・<a href="#">世界会議編</a></p>
-          <p>・<a href="#">ワノ国編</a></p>
+          <span onclick="obj=document.getElementById('open1').style;
+            obj.display=
+            (obj.display=='none')?'block':'none';">
+              <h5 style="cursor:pointer;">▼ イーストブルー編</h5>
+          </span>
+          <ul>
+            <span id="open1" style="display: none; clear: both;">
+              <li><a href="#">フーシャ村編</a></li>
+              <li><a href="#">シェルズタウン編</a></li>
+              <li><a href="#">オレンジの町編</a></li>
+              <li><a href="#">シロップ村編</a></li>
+              <li><a href="#">バラティエ編</a></li>
+              <li><a href="#">アーロンパーク編</a></li>
+            </span>
+          </ul>
+
+          <span onclick="obj=document.getElementById('open2').style;
+            obj.display=
+            (obj.display=='none')?'block':'none';">
+              <h5 style="cursor:pointer;">▼ グランドライン編</h5>
+          </span>
+          <ul>
+            <span id="open2" style="display: none; clear: both;">
+              <li><a href="#">アラバスタ編</a></li>
+              <li><a href="#">空島編</a></li>
+              <li><a href="#">ロングリングロングランド編</a></li>
+              <li><a href="#">ウォーターセブン編</a></li>
+              <li><a href="#">エニエス・ロビー編</a></li>
+              <li><a href="#">スリラーバーク編</a></li>
+              <li><a href="#">シャボンディ諸島編</a></li>
+              <li><a href="#">インペルダウン編</a></li>
+              <li><a href="#">マリンフォード編</a></li>
+              <li><a href="#">魚人島編</a></li>
+              <li><a href="#">パンクハザード編</a></li>
+              <li><a href="#">ドレスローザ編</a></li>
+              <li><a href="#">ゾウ編</a></li>
+              <li><a href="#">ホールケーキアイランド編</a></li>
+              <li><a href="#">世界会議編</a></li>
+              <li><a href="#">ワノ国編</a></li>
+            </span>
+          </ul>
         </div>
       </div>
     </div>
