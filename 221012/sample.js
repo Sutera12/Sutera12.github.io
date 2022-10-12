@@ -4,4 +4,4 @@ console.log("眠い");
 
 let variableA;
 variableA = "こんにちは";
-console.log("variableA");
+console.log(variableA);
