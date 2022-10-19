@@ -2,20 +2,24 @@ function test(){
   console.log("こんにちは");
 }
 
-function test2(level1){
-  console.log(`level1: ${level1}`)
+function test2(low1){
+  console.log(`仮引数1: ${low1}`)
 }
 
-test2(2);
-
-function test3(view1,view2,view3){
-  console.log(`view1: ${view1}`);
-  console.log(`view2: ${view2}`);
-  console.log(`view3: ${view3}`);
+function test3(high1,high2,high3){
+  console.log(`仮引数1: ${high1}`);
+  console.log(`仮引数2: ${high2}`);
+  console.log(`仮引数3: ${high3}`);
 }
 
-test3(2,8,10);
+function test4(level1 = "でふぉると"){
+  console.log(`仮引数1: ${level1}`);
+}
 
-function test6(low){
-  let 2021 * 1010 = `スコープ内の変数: ${}`
+function test5(){
+  return "関数から返した文字列！"
+}
+
+function test6(apple1){
+  return 2021 * 1010;
 }
