@@ -23,3 +23,19 @@ function test5(){
 function test6(apple1){
   return 2021 * 1010;
 }
+
+function hello(day1){
+  console.log("こんにちはこんにちは");
+}
+
+function helloSomeone(name){
+  console.log('こんにちは${name}さん');
+}
+
+function helloCircleArea(radius){
+  console.log(radius * radius * Math.PI);
+}
+
+function helloRectangleArea(width,height){
+  console.log(width * height);
+}
