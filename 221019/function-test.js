@@ -29,7 +29,7 @@ function hello(day1){
 }
 
 function helloSomeone(name){
-  console.log('こんにちは${name}さん');
+  console.log(`こんにちは${name}さん`);
 }
 
 function helloCircleArea(radius){
