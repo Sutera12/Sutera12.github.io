@@ -39,3 +39,11 @@ function helloCircleArea(radius){
 function helloRectangleArea(width,height){
   console.log(width * height);
 }
+
+function circleArea(radius){
+  return(radius * radius * Math.PI);
+}
+
+function rectangleArea(width,height){
+  return(width * height);
+}
