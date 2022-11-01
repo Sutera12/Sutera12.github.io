@@ -4,17 +4,11 @@ function showModal(){
   modal.innerHTML = "ボタンが押されました";
 }
 
-function changeRed(){
-  Element.style.backgroundColor = "Red";
-}
 
-function changeYellow(){
-  Element.style.backgroundColor = "Yellow";
-}
 
-function changeGreen(){
-  Element.style.backgroundColor = "Green";
-}
+
+
+
 
 function appendCircle(){
 
