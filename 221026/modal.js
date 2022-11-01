@@ -15,8 +15,13 @@ function changeGreen(){
 }
 
 function appendCircle(){
-
+  console.log("〇")
 }
 function appendCross(){
+  console.log("✕")
+}
 
+function CircleCross(){
+  var result = appendCircle + appendCross;
+  console.log(result);
 }
