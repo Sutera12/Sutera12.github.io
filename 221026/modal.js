@@ -14,14 +14,6 @@ function changeGreen(){
   document.body.style.backgroundColor = "Green";
 }
 
-function appendCircle(){
-  console.log("〇")
-}
-function appendCross(){
-  console.log("✕")
-}
-
-function CircleCross(){
-  var result = appendCircle + appendCross;
-  console.log(result);
+function addTF(str) {
+  document.Form.add.value += str;
 }

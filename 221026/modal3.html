@@ -5,11 +5,13 @@
   <title>modal練習3</title>
 </head>
 <body>
-
-<button onclick = "appendCircle()">〇</button>
-<button onclick = "appendCross()">✕</button>
-
-<div id="CircleCross">result + </div>
+<div>
+<form name="Form">
+  <input type="button" value="◯" onClick="addTF(this.value)"><br>
+  <input type="button" value="✕" onClick="addTF(this.value)"><br>
+  <input type="text" name="add"><br>
+</form>
+</div>
 
 <div id = "modal"></div>
 
