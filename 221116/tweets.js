@@ -9,7 +9,7 @@ while (i < tweets.length){
 
 let renderTweet = function(tweet){
   html = `<li><b>${tweet.name}</b>: ${tweet.message} <i>${tweet.tweetedAt}</i></li>`;
-}
+};
 tweets.forEach(renderTweet);
 
 html += "</ul>";
