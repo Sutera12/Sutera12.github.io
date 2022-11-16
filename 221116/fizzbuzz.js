@@ -1,11 +1,20 @@
 function doFizzBuzz(){
-  let answer = document.querySelector()
-
+  let answer = document.querySelector("#answer")
+  let message = "";
 
   let i = 1;
   while (i <= 100){
     if (i % 3 == 0 && i % 5 == 0){
-      postMessage()
+      message += `FizzBuzz<br />`;
+    }else if (i % 3 == 0){
+      message += `Fizz<br />`;
+    }else if (i % 5 == 0){
+      message += `Buzz<br />`;
+    }else {
+      message += `${i}<br />`;
     }
+    i++;
   }
+
+  answer.innerHTML = message;
 }
