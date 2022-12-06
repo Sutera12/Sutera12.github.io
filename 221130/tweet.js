@@ -12,6 +12,7 @@ function tweetAll(){
     tweet.innerHTML += "<p>" + tweets[i].message + "</p>";
     tweet.innerHTML += "<p>" + tweets[i].tweetedAt + "</p>";
     tweet.innerHTML +=`<img id='icon' style='width:60px; height: 75px' src="${tweets[i].avatar}">`;}
+    tweet.innerHTML += "<hr>";
 };
 
 function tweetTaro(){
@@ -22,6 +23,7 @@ function tweetTaro(){
       tweet.innerHTML += "<p>" + tweets[i].message + "</p>";
       tweet.innerHTML += "<p>" + tweets[i].tweetedAt + "</p>";
       tweet.innerHTML +=`<img id='icon' style='width:60px; height: 75px' src="${tweets[i].avatar}">`;}
+    tweet.innerHTML += "<hr>";
     }
 };
 
@@ -33,6 +35,7 @@ function tweetJiro(){
       tweet.innerHTML += "<p>" + tweets[i].message + "</p>";
       tweet.innerHTML += "<p>" + tweets[i].tweetedAt + "</p>";
       tweet.innerHTML +=`<img id='icon' style='width:60px; height: 75px' src="${tweets[i].avatar}">`;}
+    tweet.innerHTML += "<hr>";
   }
 };
 
@@ -44,5 +47,6 @@ function tweetSabro(){
       tweet.innerHTML += "<p>" + tweets[i].message + "</p>";
       tweet.innerHTML += "<p>" + tweets[i].tweetedAt + "</p>";
       tweet.innerHTML +=`<img id='icon' style='width:60px; height: 75px' src="${tweets[i].avatar}">`;}
+    tweet.innerHTML += "<hr>";
   }
 };
