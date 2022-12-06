@@ -1,5 +1,15 @@
-let i = 0;
-while(i < tweets.length){
-  html += `<li><b>${tweets}</b></li>`;
-}
-html += "</ul>";
+function tweetAll(){
+  for(let i = 0; i < tweets.length; i++)
+};
+
+function tweetTaro(){
+
+};
+
+function tweetJiro(){
+
+};
+
+function tweetSabro(){
+
+};
