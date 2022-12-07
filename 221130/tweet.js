@@ -14,7 +14,7 @@ function tweetAll(){
     tweet.innerHTML +=`<img id='icon' style='width:60px; height: 75px' src="${tweets[i].avatar}">`;
     tweet.innerHTML += "<hr>";
   }
-};
+};　
 
 function tweetTaro(){
   tweet.innerHTML="";
