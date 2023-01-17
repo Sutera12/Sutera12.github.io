@@ -1,3 +1,29 @@
+:root {
+  --main-text: #000;
+  --main-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #fff;
+    --main-bg: #202124;
+  }
+}
+body{
+  color: var(--main-text);
+  background: var(--main-bg);
+  transition: .3s;
+}
+.light-mode{
+  --main-text: #000;
+  --main-bg: #fff;
+}
+.dark-mode{
+  --main-text: #fff;
+  --main-bg: #202124;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
   font-family: 'Noto Sans JP', sans-serif;
