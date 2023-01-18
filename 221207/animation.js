@@ -17,6 +17,6 @@ function startAnimation() {
       easing: 'easeInOutQuart'
     },
     delay:250,
-  translateY:100
+    translateY:100
   });
 }

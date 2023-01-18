@@ -1,6 +1,5 @@
 const btn = document.querySelector("#btn-dark-mode");
 
-//OS側の設定判定
 const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 const darkModeOn = darkModeMediaQuery.matches;
 
@@ -17,7 +16,6 @@ darkModeMediaQuery.addListener((e) => {
   }
 });
 
-//チェックボックス切り替え判定
 btn.addEventListener("change", () => {
   if (btn.checked === true) {
     document.body.classList.remove('light-mode');
@@ -30,10 +28,32 @@ btn.addEventListener("change", () => {
   }
 });
 
-//ローカルストレージ判定
 if(localStorage.getItem('dark-mode-settings')==='dark') {
   document.body.classList.add('dark-mode');
   btn.checked = true;
 }else if (localStorage.getItem('dark-mode-settings')==='light') {
   document.body.classList.add('light-mode');
 }
+
+
+
+const pagetop_btn = document.querySelector(".pagetop");
+
+// .pagetopをクリックしたら
+pagetop_btn.addEventListener("click", scroll_top);
+
+// ページ上部へスムーズに移動
+function scroll_top() {
+  window.scroll({ top: 0, behavior: "smooth" });
+}
+
+// スクロールされたら表示
+window.addEventListener("scroll", scroll_event);
+function scroll_event() {
+  if (window.pageYOffset > 100) {
+    pagetop_btn.style.opacity = "1";
+  } else if (window.pageYOffset < 100) {
+    pagetop_btn.style.opacity = "0";
+  }
+}
+

@@ -1,0 +1,28 @@
+section{
+  height: 1000px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 100px 50px;
+}
+.button{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: #000;
+  transition: .3s;
+  /* 非表示にする */
+  opacity: 0;
+  visibility: hidden;
+}
+.is-active{
+  /* 表示する */
+  opacity: 1;
+  visibility: visible;
+}
