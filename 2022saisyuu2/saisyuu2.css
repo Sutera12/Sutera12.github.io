@@ -44,7 +44,6 @@ body{
   color: #00A6C4;
   background: #fff;
 
-  /*   デフォルトは非表示 */
   opacity: 0;
 }
 .pagetop:hover {
